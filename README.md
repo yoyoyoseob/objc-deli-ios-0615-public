@@ -24,24 +24,24 @@ Write all of your code in `FISAppDelegate.m`
 
 Example usage:
 	
-	```objc
-	NSMutableArray *katzDeli = [[NSMutableArray alloc] init];
+```objc
+NSMutableArray *katzDeli = [[NSMutableArray alloc] init];
 
-	[self takeANumberWithLine:katzDeli Name:"Ada"]; //Returns @1
-	[self takeANumberWithLine:katzDeli Name:"Grace"]; //Returns @2
-	[self takeANumberWithLine:katzDeli Name:"Kent"]; //Returns @3
+[self takeANumberWithLine:katzDeli Name:"Ada"]; //Returns @1
+[self takeANumberWithLine:katzDeli Name:"Grace"]; //Returns @2
+[self takeANumberWithLine:katzDeli Name:"Kent"]; //Returns @3
 
-	[self line:katzDeli]; // "The line is currently: 1. Ada 2. Grace 3. Kent"
+[self line:katzDeli]; // "The line is currently: 1. Ada 2. Grace 3. Kent"
 
-	[self nowServing:katzDeli]; // "Currently Serving Ada."
+[self nowServing:katzDeli]; // "Currently Serving Ada."
 
-	[self line:katzDeli]; // "The line is currently: 1. Grace 2. Kent"
+[self line:katzDeli]; // "The line is currently: 1. Grace 2. Kent"
 
-	[self takeANumberWithLine:katzDeli Name: "Steve"]; //Returns @3
+[self takeANumberWithLine:katzDeli Name: "Steve"]; //Returns @3
 
-	[self line:katzDeli]; // "The line is currently: 1. Grace 2. Kent 3. Steve"
+[self line:katzDeli]; // "The line is currently: 1. Grace 2. Kent 3. Steve"
 
-	[self nowServing:katzDeli] // "Currently serving Grace/"
+[self nowServing:katzDeli] // "Currently serving Grace/"
 
-	[self line:katzDeli]; // "The line is currently: 1. Kent 2. Matz"
-	```
+[self line:katzDeli]; // "The line is currently: 1. Kent 2. Matz"
+```
