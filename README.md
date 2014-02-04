@@ -16,7 +16,7 @@ eg.
 
 Write all of your code in `FISAppDelegate.m`
 
-1. Build a method that a new customer will use when entering the deli. The method, `takeANumberWithLine:Name:`, should accept the current line of people, `katzDeli`, along with the new person's name, and tell them their position in line. And don't go being too programmer-y and give them their index. These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
+1. Build a method that a new customer will use when entering the deli. The method, `takeANumberWithLine:Name:`, should accept the current line of people, `katzDeli`, along with the new person's name, and tell them their position in line (as an NSNumber). And don't go being too programmer-y and give them their index. These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
 
 2. Build a method `nowServing`. This method should call out (via `NSLog`) the next person in line and then remove them from the line. If there is nobody in line, it should say that "There is nobody waiting to be served!"
 
