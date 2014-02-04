@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FISAppDelegate.h
 //  Objc-deli
 //
 //  Created by Al Tyus on 2/3/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
