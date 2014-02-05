@@ -9,7 +9,27 @@
 
 A pretty important deli needs somebody to program the "Take a Number" feature for their counter.
 
-At the beginning of the day, the deli is empty and is represented by an empty array.  Create the NSMutable array as an instance variable in your implementation.  Name the instance variable your array whatever you want.  
+At the beginning of the day, the deli is empty and is represented by an empty array.  Create the NSMutable array as an instance variable in your implementation.  Name the instance variable your array whatever you want.
+
+Example: 
+
+ ```objc 
+
+//
+//  FISAppDelegate.m
+//  Objc-deli
+//
+//  Created by Al Tyus on 2/3/14.
+//  Copyright (c) 2014 Flatiron School. All rights reserved.
+//
+
+#import "FISAppDelegate.h"
+
+@implementation FISAppDelegate{
+    NSMutableArray *katzDeli;
+}
+
+ ```
 
 Write all of your code in `FISAppDelegate.m`.  All method signatures should be added to 'FISAppDelegate.h'.
 
