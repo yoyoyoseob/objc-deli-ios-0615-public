@@ -33,11 +33,13 @@ Example:
 
 Write all of your code in `FISAppDelegate.m`.  All method signatures should be added to 'FISAppDelegate.h'.
 
-1. Build a method that a new customer will use when entering the deli. The method, `takeANumberWithName:`, should accept the new person's name, and tell them their position in line (as an NSNumber). And don't go being too programmer-y and give them their index. These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
+1. Write a setter and getter method for the `katzDeli` instance variable
 
-2. Build a method `nowServing`. This method should return (as an NSString) the name of the next person in line and then remove them from the line. If there is nobody in line, it should say that "There is nobody waiting to be served!"
+2. Build a method that a new customer will use when entering the deli. The method, `takeANumberWithName:`, should accept the new person's name, and tell them their position in line (as an NSNumber). And don't go being too programmer-y and give them their index. These are normal people. If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
 
-3. Build a method `line` that shows people their current place in line (returned as an NSString). If there is nobody in line, it should say "The line is currently empty."
+3. Build a method `nowServing`. This method should return (as an NSString) the name of the next person in line and then remove them from the line. If there is nobody in line, it should say that "There is nobody waiting to be served!"
+
+4. Build a method `line` that shows people their current place in line (returned as an NSString). If there is nobody in line, it should say "The line is currently empty."
 
 Example usage:
 	
