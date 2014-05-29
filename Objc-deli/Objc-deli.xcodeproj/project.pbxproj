@@ -14,13 +14,13 @@
 		44E469C218A06414009EE9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E469C118A06414009EE9AA /* main.m */; };
 		44E469C618A06414009EE9AA /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E469C518A06414009EE9AA /* FISAppDelegate.m */; };
 		44E469C918A06414009EE9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E469C718A06414009EE9AA /* Main.storyboard */; };
-		44E469CC18A06414009EE9AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E469CB18A06414009EE9AA /* ViewController.m */; };
 		44E469CE18A06414009EE9AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E469CD18A06414009EE9AA /* Images.xcassets */; };
 		44E469D518A06414009EE9AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E469D418A06414009EE9AA /* XCTest.framework */; };
 		44E469D618A06414009EE9AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E469B518A06414009EE9AA /* Foundation.framework */; };
 		44E469D718A06414009EE9AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E469B918A06414009EE9AA /* UIKit.framework */; };
 		44E469DF18A06414009EE9AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E469DD18A06414009EE9AA /* InfoPlist.strings */; };
-		44E469E118A06414009EE9AA /* Objc_deliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E469E018A06414009EE9AA /* Objc_deliTests.m */; };
+		810B65CDAFED4171B4F6824D /* libPods-Objc-deliTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E0D34E60DD48D3A5665168 /* libPods-Objc-deliTests.a */; };
+		D847801B19374CA5005FEBA5 /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D847801A19374CA5005FEBA5 /* FISAppDelegateSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		44E469C418A06414009EE9AA /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		44E469C518A06414009EE9AA /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		44E469C818A06414009EE9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44E469CA18A06414009EE9AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44E469CB18A06414009EE9AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44E469CD18A06414009EE9AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44E469D318A06414009EE9AA /* Objc-deliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objc-deliTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E469D418A06414009EE9AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44E469DC18A06414009EE9AA /* Objc-deliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-deliTests-Info.plist"; sourceTree = "<group>"; };
 		44E469DE18A06414009EE9AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44E469E018A06414009EE9AA /* Objc_deliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_deliTests.m; sourceTree = "<group>"; };
+		839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-deliTests.xcconfig"; path = "Pods/Pods-Objc-deliTests.xcconfig"; sourceTree = "<group>"; };
+		B4E0D34E60DD48D3A5665168 /* libPods-Objc-deliTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objc-deliTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D847801A19374CA5005FEBA5 /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +73,7 @@
 				44E469D518A06414009EE9AA /* XCTest.framework in Frameworks */,
 				44E469D718A06414009EE9AA /* UIKit.framework in Frameworks */,
 				44E469D618A06414009EE9AA /* Foundation.framework in Frameworks */,
+				810B65CDAFED4171B4F6824D /* libPods-Objc-deliTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +87,7 @@
 				44E469DA18A06414009EE9AA /* Objc-deliTests */,
 				44E469B418A06414009EE9AA /* Frameworks */,
 				44E469B318A06414009EE9AA /* Products */,
+				839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +107,7 @@
 				44E469B718A06414009EE9AA /* CoreGraphics.framework */,
 				44E469B918A06414009EE9AA /* UIKit.framework */,
 				44E469D418A06414009EE9AA /* XCTest.framework */,
+				B4E0D34E60DD48D3A5665168 /* libPods-Objc-deliTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +118,6 @@
 				44E469C418A06414009EE9AA /* FISAppDelegate.h */,
 				44E469C518A06414009EE9AA /* FISAppDelegate.m */,
 				44E469C718A06414009EE9AA /* Main.storyboard */,
-				44E469CA18A06414009EE9AA /* ViewController.h */,
-				44E469CB18A06414009EE9AA /* ViewController.m */,
 				44E469CD18A06414009EE9AA /* Images.xcassets */,
 				44E469BC18A06414009EE9AA /* Supporting Files */,
 			);
@@ -137,8 +138,8 @@
 		44E469DA18A06414009EE9AA /* Objc-deliTests */ = {
 			isa = PBXGroup;
 			children = (
-				44E469E018A06414009EE9AA /* Objc_deliTests.m */,
 				44E469DB18A06414009EE9AA /* Supporting Files */,
+				D847801A19374CA5005FEBA5 /* FISAppDelegateSpec.m */,
 			);
 			path = "Objc-deliTests";
 			sourceTree = "<group>";
@@ -176,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44E469E718A06414009EE9AA /* Build configuration list for PBXNativeTarget "Objc-deliTests" */;
 			buildPhases = (
+				C3B0C29619894437A1548FF3 /* Check Pods Manifest.lock */,
 				44E469CF18A06414009EE9AA /* Sources */,
 				44E469D018A06414009EE9AA /* Frameworks */,
 				44E469D118A06414009EE9AA /* Resources */,
+				9D49A04D40BD4E53B1AF807D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +247,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D49A04D40BD4E53B1AF807D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Objc-deliTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B0C29619894437A1548FF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44E469AE18A06414009EE9AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E469CC18A06414009EE9AA /* ViewController.m in Sources */,
 				44E469C618A06414009EE9AA /* FISAppDelegate.m in Sources */,
 				44E469C218A06414009EE9AA /* main.m in Sources */,
 			);
@@ -259,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E469E118A06414009EE9AA /* Objc_deliTests.m in Sources */,
+				D847801B19374CA5005FEBA5 /* FISAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +436,7 @@
 		};
 		44E469E818A06414009EE9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-deli.app/Objc-deli";
@@ -424,6 +460,7 @@
 		};
 		44E469E918A06414009EE9AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-deli.app/Objc-deli";
@@ -460,6 +497,7 @@
 				44E469E618A06414009EE9AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44E469E718A06414009EE9AA /* Build configuration list for PBXNativeTarget "Objc-deliTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +506,7 @@
 				44E469E918A06414009EE9AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
