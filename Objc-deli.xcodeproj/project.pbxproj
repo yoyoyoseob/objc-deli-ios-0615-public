@@ -50,7 +50,8 @@
 		44E469D418A06414009EE9AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44E469DC18A06414009EE9AA /* Objc-deliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objc-deliTests-Info.plist"; sourceTree = "<group>"; };
 		44E469DE18A06414009EE9AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-deliTests.xcconfig"; path = "Pods/Pods-Objc-deliTests.xcconfig"; sourceTree = "<group>"; };
+		5FF818F84C8301947B89DA8A /* Pods-Objc-deliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-deliTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Objc-deliTests/Pods-Objc-deliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6290DE98E6370C37D028B506 /* Pods-Objc-deliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objc-deliTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Objc-deliTests/Pods-Objc-deliTests.release.xcconfig"; sourceTree = "<group>"; };
 		B4E0D34E60DD48D3A5665168 /* libPods-Objc-deliTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objc-deliTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D847801A19374CA5005FEBA5 /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +88,7 @@
 				44E469DA18A06414009EE9AA /* Objc-deliTests */,
 				44E469B418A06414009EE9AA /* Frameworks */,
 				44E469B318A06414009EE9AA /* Products */,
-				839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */,
+				9949EBBAEEF9FB2C161C4536 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +152,15 @@
 				44E469DD18A06414009EE9AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9949EBBAEEF9FB2C161C4536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FF818F84C8301947B89DA8A /* Pods-Objc-deliTests.debug.xcconfig */,
+				6290DE98E6370C37D028B506 /* Pods-Objc-deliTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Objc-deliTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Objc-deliTests/Pods-Objc-deliTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3B0C29619894437A1548FF3 /* Check Pods Manifest.lock */ = {
@@ -436,7 +446,7 @@
 		};
 		44E469E818A06414009EE9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */;
+			baseConfigurationReference = 5FF818F84C8301947B89DA8A /* Pods-Objc-deliTests.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-deli.app/Objc-deli";
@@ -460,7 +470,7 @@
 		};
 		44E469E918A06414009EE9AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 839AF3A7B8E845778ED547BC /* Pods-Objc-deliTests.xcconfig */;
+			baseConfigurationReference = 6290DE98E6370C37D028B506 /* Pods-Objc-deliTests.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Objc-deli.app/Objc-deli";
