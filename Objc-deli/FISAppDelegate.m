@@ -15,6 +15,41 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+- (NSMutableArray *)takeANumberWithDeliLine:(NSMutableArray *)deliLine Name:(NSString *)newName
+{
+    [deliLine addObject:newName];
+    NSLog(@"You are %lu in line", deliLine.count);
+    return deliLine;
+}
+
+- (NSMutableArray *)nowServingWithDeliLine:(NSMutableArray *)deliLine
+{
+    if (!(deliLine.count == 0)){
+        [deliLine removeObjectAtIndex:0];
+        NSLog(@"%@", deliLine[0]);
+    }
+    else if (deliLine.count == 0){
+        NSLog(@"There is nobody waiting to be served!");
+    }
+    return deliLine;
+}
+
+- (NSString *)deliLine:(NSMutableArray *)deliLine
+{
+    NSMutableString *currentLine = [[NSMutableString alloc] initWithString:@"The line is currently:"];
+    
+    if (!(deliLine.count == 0)){
+        for (int i = 0; i < deliLine.count; i++){
+            [currentLine appendFormat:@" %d. %@", i+1, deliLine[i]];
+        }
+        return currentLine;
+    }
+    else if (deliLine.count == 0){
+        return @"The line is empty";
+    }
+    return currentLine;
+}
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
